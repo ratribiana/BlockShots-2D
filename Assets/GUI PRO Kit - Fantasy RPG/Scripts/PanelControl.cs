@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 namespace LayerLab
 {
     public class PanelControl : MonoBehaviour
@@ -48,6 +49,7 @@ namespace LayerLab
         //Click_Prev
         public void Click_Prev()
         {
+
             if (page <= 0 || !isReady) return;
 
             panels[page].SetActive(false);
