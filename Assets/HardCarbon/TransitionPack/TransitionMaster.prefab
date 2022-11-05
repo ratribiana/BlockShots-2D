@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8205606396289962672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2289504979568379227}
+  - component: {fileID: 8819600580304585425}
+  m_Layer: 0
+  m_Name: TransitionMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2289504979568379227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205606396289962672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 147.45084, y: 318.4797, z: -4.3062453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8819600580304585425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205606396289962672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c3fa0ed164c5e498dd8e0eb7e55316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoRun: 0
+  delay: 0
+  duration: 0.3
+  endAction: 0
+  TransitionInSettings:
+    timeUpdateMethod: 0
+    overlay: {fileID: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    mask: {fileID: 0}
+    invertMask: 0
+    softness: 0
+    events:
+      OnStart:
+        m_PersistentCalls:
+          m_Calls: []
+      OnUpdate:
+        m_PersistentCalls:
+          m_Calls: []
+      OnFinish:
+        m_PersistentCalls:
+          m_Calls: []
+  TransitionOutSettings:
+    timeUpdateMethod: 0
+    overlay: {fileID: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    mask: {fileID: 0}
+    invertMask: 0
+    softness: 0
+    events:
+      OnStart:
+        m_PersistentCalls:
+          m_Calls: []
+      OnUpdate:
+        m_PersistentCalls:
+          m_Calls: []
+      OnFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    changeScene: 0
+    sceneName: 

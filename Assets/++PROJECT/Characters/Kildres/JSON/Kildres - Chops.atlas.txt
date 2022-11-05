@@ -1,0 +1,24 @@
+Kildres - Chops.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+scale:0.5
+Bottom
+bounds:2,697,197,132
+Cable 1
+bounds:88,831,121,68
+Cable 2
+bounds:2,844,55,84
+rotate:90
+Cannon Left
+bounds:211,782,323,117
+Cannon Right
+bounds:536,768,363,131
+Cockpit
+bounds:201,619,225,161
+Cockpit Front
+bounds:428,564,202,228
+rotate:90
+Xalyth
+bounds:658,541,225,229
+rotate:90
